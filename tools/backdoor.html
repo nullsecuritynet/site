@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- WE DONT CARE ABOUT HTML! HACKED DOWN. -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>nullsecurity</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="computer and network security enthusiasts" />
+<meta name="keywords" content="hacker tools, hacker crew, computer security, network security, penetration test, exploit, webapplication security, cross-site scripting, sql injection, file inclusion, security scanner, 0day, zeroday, buffer overflow, stack overflow, heap overflow, formatstring, rop, stackshield, aslr, dep, auth bypass" />
+<meta name="author" content="nullsecurity" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<meta name="page-topic" content="hacker tools, computer and network security, exploits" />
+<meta name="language" content="en" />
+<meta itemprop="name" content="nullsecurity" />
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+<br />
+<div id="body">
+<div id="logo"><div id="banner"></div></div>
+<div id="header">
+&nbsp;&nbsp;<a href="/index.html">News</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/tools.html">Tools</a>&nbsp;&nbsp;&nbsp;|
+&nbsp;&nbsp;&nbsp;<a href="/advisories.html">Advisories</a>&nbsp;&nbsp;&nbsp;|&nbsp;
+&nbsp;&nbsp;<a href="/papers.html">Papers</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/videos.html">Videos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/about.html">About</a>&nbsp;&nbsp;&nbsp;
+</div>
+</div>
+<div id="content">
+<h1>&gt; <a href="/tools.html">Tools</a> &gt; Backdoor</h1>
+Backdoors and rootkits for kernel and userland, network, hardware and
+software. Once you have gone through all the hard work making sure you
+can get on the system. Make sure you can always get back in.
+<br /><br />
+<table>
+<tr>
+<td><a href="https://github.com/nullsecuritynet/tools/raw/master/backdoor/mbr_store/release/mbr_store-1.0.tar.gz" target="_blank">mbr_store-1.0.tar.gz</a></td>
+<td></td>
+</tr>
+<tr>
+<td valign="top">Description:</td>
+<td>This tool stores up to 426 bytes in the MBR's bootloader code section of unused devices such
+as usb drivers, hrd disks (which are not supposed to boot) and other media. GRUB detection is
+implemented for safety reasons, Windows bootloader code will be shamelessly overwritten. ;)</td>
+</tr>
+<tr>
+<td>MD5:</td>
+<td>ba5fdecf9ff48012030d8d4d3a9a0448</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>atzeton</td>
+</tr>
+<tr>
+<td><br /></td>
+</tr>
+<tr>
+<td><a href="https://github.com/nullsecuritynet/tools/raw/master/backdoor/u3-pwn/release/u3-pwn-2.0.tar.gz" target="_blank">u3-pwn-2.0.tar.gz</a></td>
+<td></td>
+</tr>
+<tr>
+<td valign="top">Description:</td>
+<td>U3-Pwn is a tool designed to automate injecting executables to Sandisk smart usb
+devices with default U3 software install. This is performed by removing the original
+iso file from the device and creating a new iso with autorun features.</td>
+</tr>
+<tr>
+<td>MD5:</td>
+<td>ef1d6b0184d5824b43f3870530502d98</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Zy0d0x</td>
+</tr>
+<tr>
+<td><br /></td>
+</tr>
+<tr>
+<td><a href="https://github.com/nullsecuritynet/tools/raw/master/backdoor/rubilyn/release/rubilyn-0.0.1.tar.gz" target="_blank">rubilyn-0.0.1.tar.gz</a></td>
+<td></td>
+</tr>
+<tr>
+<td valign="top" width="130">Description:</td>
+<td>64bit Mac OS-X kernel rootkit that uses no hardcoded address to hook the BSD subsystem
+in all OS-X Lion &amp; below. It uses a combination of syscall hooking and DKOM to hide
+activity on a host. String resolution of symbols no longer works on Mountain Lion as symtab
+is destroyed during load, this code is portable on all Lion &amp; below but requires re-working
+for hooking under Mountain Lion.</td>
+<tr>
+<td>MD5:</td>
+<td>33102898e02eb66cfc1a8f832472bf9e</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>prdelka</td>
+</tr>
+<tr>
+<td><br /></td>
+</tr>
+<tr>
+<td><a href="https://github.com/nullsecuritynet/tools/raw/master/backdoor/trixd00r/release/trixd00r-0.0.1.tar.gz" target="_blank">trixd00r-0.0.1.tar.gz</a></td>
+<td></td>
+</tr>
+<tr>
+<td valign="top">Description:</td>
+<td>trixd00r is an advanced and invisible userland backdoor based on TCP/IP for
+UNIX systems. It consists of a server and a client. The server sits and waits
+for magic packets using a sniffer. If a magic packet arrives, it will bind a
+shell over TCP or UDP on the given port or connecting back to the client again
+over TCP or UDP. The client is used to send magic packets to trigger the server
+and get a shell.</td>
+</tr>
+<tr>
+<td>MD5:</td>
+<td>01d679c8bdbcea9db29455669165e216</td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>noptrix</td>
+</tr>
+</table>
+</div>
+<div id="footer">
+Copyright &copy; 2011-2015 <a href="http://www.nullsecurity.net/">nullsecurity.net</a>
+</div>
+<div style="width:100%;">
+<div id="left" style="float:left; width:300px;">
+<i>Join our IRC network! <br />irc.nullsecurity.net:1337 #nullsecurity (SSL)</i>
+</div>
+<div id="right" style="float:right; width:100px; border:0px">
+<a target="_blank" href="https://twitter.com/nullsecuritynet">
+<img width="30px" height="30px" border="0" alt="twitter" src="/twitter.png" /></a>
+<a target="_blank" href="http://www.youtube.com/user/nullsecurity">
+<img width="30px" height="30px" border="0" alt="youtube" src="/youtube.png" /></a>
+<a target="_blank" href="https://github.com/nullsecuritynet">
+<img width="30px" height="30px" border="0" alt="github" src="/github.png" /></a>
+</div>
+<div id="center" style="margin:0 auto; width:100px;">
+<div style="border:1px solid white; width:130px; height:38px; margin:10px auto;">
+Visitor since Nov 2011
+<a target="_blank" href="http://www.hitwebcounter.com/counterresources.php">
+<img border="0" alt="" src="http://hitwebcounter.com/counter/counter.php?page=320569&amp;style=0038&amp;nbdigits=8&amp;type=ip&amp;initCount=0" /></a>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!-- EOF -->
