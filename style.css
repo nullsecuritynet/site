@@ -7,7 +7,7 @@ body
     background: #000000;
     text-align: center;
     width: 800px;
-    height: 450px;
+    height: 430px;
     margin: auto;
     color: #f5f5f5;
 }
@@ -61,7 +61,7 @@ body
     padding: 13px;
     text-align: left;
     width: 800px auto;
-    height: 450px;
+    height: 430px;
     overflow: auto;
     overflow-x: hidden;
     border:1px #f0f0f0 solid;
