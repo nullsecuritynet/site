@@ -103,7 +103,7 @@ body
 
 #content hr
 {
-    width: 800px auto;
+    width: 1024px auto;
     height: 0px;
     color: #000000;
 }
@@ -121,7 +121,7 @@ body
     text-align: center;
     padding: 1px;
     margin: 1px auto;
-    width: 800px auto;
+    width: 1024px auto;
     border: 1px #f0f0f0 solid;
     -moz-box-shadow: inset 0 0 8px #aaa;
     -webkit-box-shadow: inset 0 0 8px #aaa;
