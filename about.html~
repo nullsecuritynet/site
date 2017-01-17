@@ -112,6 +112,13 @@ and existing security threats.
 <td><img src="flags/gb.png" alt="United Kingdom" title="United Kingdom" /> UK</td>
 </tr>
 <tr>
+<td>Valient</td>
+<td>Ano Nymous</td>
+<td><a href="gpg/valient.asc" target="_blank">0xAEFF401D</a></td>
+<td><a href="http://www.nullsecurity.net/" target="_blank">http://www.nullsecurity.net/</a></td>
+<td><img src="flags/ru.png" alt="Russia" title="Russia" /> RU</td>
+</tr>
+<tr>
 <td>nrz</td>
 <td>Javier F</td>
 <td><a href="gpg/nrz.asc" target="_blank">0x526D1AAE</a></td>
