@@ -26,8 +26,8 @@ body
     color: #ffffff;
     text-align: center;
     border: 1px #f0f0f0 solid;
-    padding: 2px;
-    margin: 4px auto;
+    padding: 3px;
+    margin: 5px auto;
     width: 1024px auto;
     -moz-box-shadow: inset 0 0 8px #aaa;
     -webkit-box-shadow: inset 0 0 8px #aaa;
@@ -58,7 +58,7 @@ body
 {
     clear: both;
     margin: 5px auto;
-    padding: 13px;
+    padding: 15px;
     text-align: left;
     width: 1024px auto;
     height: 600px;
