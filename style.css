@@ -159,4 +159,21 @@ body
   background: #40FF00;
 }
 
+#left
+{
+  color: #ffffff;
+}
+
+#left a
+{
+  color: #40FF00;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+#left a:hover
+{
+  text-decoration: underline;
+}
+
 /* EOF */
